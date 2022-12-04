@@ -1,0 +1,951 @@
+/* Главная страница */
+
+body {
+    background-color: #F5F5F5;
+}
+
+.container-main {
+    min-width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* меню */
+
+.logo-image {
+    margin-right: 25px;
+}
+
+.container-menu {
+    display: flex;
+    margin-bottom: 120px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+}
+
+li {
+    list-style: none;
+}
+
+.par-menu {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    /* margin-right: 25px; */
+    font-weight: 400;
+    line-height: 18px;
+    padding: 12.5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.par-menu:hover {
+    background: radial-gradient(circle, rgba(254,193,88,1) 0%, rgba(245,245,245,0) 55%);
+}
+
+.last {
+    margin-left: auto;
+}
+
+
+/* Первый контейнер */
+
+.first-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 250px;
+    justify-content: center;
+}
+
+/* Первый контейнер левый блок */
+
+.logo-brief {
+    position: relative;
+}
+
+.par-logo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40.1233px;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.tagline {
+    font-weight: 700;
+    font-size: 36px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #000000;
+    line-height: 48px;
+}
+
+.first-line {
+    display: flex;
+}
+
+.posit-par {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.par-cta {
+    font-family: 'Ubuntu', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 36px;
+}
+
+.tagline-posit {
+    margin-bottom: 36px;
+}
+
+.btn-cta {
+    background: linear-gradient(90.98deg, #E26769 0.34%, #E88486 112.11%);
+    box-shadow: 0px 10px 10px rgba(180, 27, 23, 0.3);
+    border-radius: 20px;
+    width: 315px;
+    height: 80px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Первый контейнер правый блок */
+
+
+.bc-container {
+    position: relative;
+    min-width: 695px;
+}
+
+.blue-spot {
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(36,237,255,0.6) 0%, rgba(0,0,0,0) 70%);
+    position: absolute;
+    top: -120px;
+    left: 65px;
+    z-index: -1;
+}
+
+.orange-spot {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(254,193,88,0.6) 0%, rgba(255, 255, 255, 0) 70%);
+    top: -120px;
+    left: 340px;
+    z-index: -1;
+}
+
+.purple-spot {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(222,43,174,0.6) 0%, rgba(255, 255, 255, 0) 60%);
+    top: 250px;
+    left: 200px;
+    z-index: -1;
+    bottom: 0px;
+}
+
+.image-cta {
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+.dialog-one {
+    z-index: 1;
+    position: absolute;
+    top: -15px;
+    left: 120px;
+}
+
+.dialog-two {
+    z-index: 1;
+    position: absolute;
+    top: 30px;
+    left: 505px;
+}
+
+.par-dialog-one {
+    z-index: 1;
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+    color: #512A46;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    top: 5px;
+    left: 145px;
+}
+
+.par-dialog-two {
+    z-index: 1;
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+    color: #512A46;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    top: 55px;
+    left: 535px;
+}
+
+ /* Второй блок  */
+
+ .second-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+ }
+
+/* Заголовок  */
+
+.header {
+    display: flex;
+    margin-bottom: 72px;
+    padding-left: 40px;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 40.1233px;
+    line-height: 46px;
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ /* Блок с текстом  */
+
+ .edge-block {
+    width: 380px;
+    height: 168px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    margin: 20px;
+ }
+
+ .edge-header {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 16px;
+
+ }
+
+ .grey-par {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #7C7C7C;
+ }
+
+ .icon-box {
+    position: relative;
+ }
+
+ .icon-edge {
+    position: absolute;
+    top: -150px;
+    left: -70px;
+ }
+
+
+ /* третий блок */
+
+ .third-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    align-self: center;
+    margin-bottom: 187px;
+ }
+
+ .skill-block {
+    width: 380px;
+    height: 220px;
+    background: rgba(255,255,255,0.5);
+    border: 1px solid #D5D5D5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 24px;
+    margin: 20px;
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+ }
+
+.skill-header {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 53px;
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.skill-header-min {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 17px;
+}
+
+/* Градиент */
+
+.gradient-container {
+    position: relative;
+}
+
+.yellow-spot {
+    background: radial-gradient(circle, rgba(254,193,88,0.7) 0%, rgba(255, 255, 255, 0) 70%);
+    z-index: -1;
+    width: 760px;
+    height: 700px;
+    position: absolute;
+    top: -200px;
+    left: -170px;
+}
+
+.red-spot {
+    background: radial-gradient(circle, rgba(207,2,26,0.5) 0%, rgba(255, 255, 255, 0) 60%);
+    z-index: -2;
+    width: 50vw;
+    height: 700px;
+    position: absolute;
+    top: -200px;
+    left: 430px;
+}
+
+.violet-spot {
+    background: radial-gradient(circle, rgba(222,43,174,0.6) 0%, rgba(255, 255, 255, 0) 70%);
+    z-index: -3;
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 150px;
+    left: -150px;
+}
+
+.aquamarine-spot {
+    background: radial-gradient(circle, rgba(36,237,255,0.6) 0%, rgba(245,245,245,1) 70%);
+    z-index: -4;
+    width: 680px;
+    height: 680px;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+}
+
+/* Четвертый блок */
+
+.vid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.subscip-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+.subscrip {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #414141;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Четвертый блок */
+
+.fifth-container {
+    height: 637px;
+    background: linear-gradient(93.44deg, #08A5BE 5.18%, #2FAD7F 100.08%);
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.com-header {
+    padding-top: 100px;
+    padding-left: 40px;
+    margin-bottom: 23px;
+}
+
+.com-heading {
+    font-weight: 700;
+    font-size: 40.1233px;
+    line-height: 46px;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.par-com {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.com-container {
+    padding-left: 40px;
+    max-width: 1000px;
+    margin-bottom: 20px;
+}
+
+.arrow-btn {
+    border: none;
+    background-color: Transparent;
+}
+
+.btn-arrow-container {
+    display: flex;
+    justify-content: end;
+    max-width: 1000px;
+}
+
+.comment-array {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comment-hat {
+    display: flex;
+    padding-top: 24px;
+    padding-left: 24px;
+}
+
+.comment-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 16px;
+}
+
+.comment-image {
+    border-radius: 100%
+}
+
+.comment-list {
+    width: 580px;
+    height: 325px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    margin: 13px;
+    z-index: 9;
+}
+
+.oneComment, .twoComment {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+
+.comment-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #000000;
+}
+
+.comment-address {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7C7C7C;
+}
+
+.comment-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    max-width: 519px;
+    padding-top: 34px;
+    padding-left: 29px;
+}
+
+/* Подвал */
+
+.footer {
+    min-height: 201px;
+    background: #07102E;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-nav-footer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    min-height: 80px;
+}
+
+.par-footer {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 25px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.contact-container {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Страница о нас */
+
+.main-container-au {
+    max-width: 1370px;
+    text-align: center;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.container-par-au {
+    padding-left: 100px;
+    margin-bottom: 1050px;
+}
+
+.par-au {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.par-au-name {
+    font-weight: 700;
+}
+
+.header-au {
+    padding-left: 100px;
+}
+
+.container-foto-ua {
+   position: relative; 
+}
+
+.foto-logop-ua {
+    z-index: 1;
+    position: absolute;
+    top: -1000px;
+    left: 300px;
+}
+
+.gradient-orang-ua {
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(circle, rgba(254,193,88,1) 0%, rgba(255, 255, 255, 0) 75%);
+    z-index: -1;
+    position: absolute;
+    top: -1000px;
+    left: 100px;
+}
+
+.container-name-ua-logop {
+    position: absolute;
+    top: -600px;
+    left: 300px;
+}
+
+.foto-prog-ua {
+    position: absolute;
+    top: -700px;
+    left: 700px;
+}
+
+.gradient-bleu-ua {
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(circle, rgba(36,237,255,1) 0%, rgba(245,245,245,0) 70%);
+    z-index: -1;
+    position: absolute;
+    top: -650px;
+    left: 900px;
+}
+
+.container-name-ua-prog {
+    position: absolute;
+    top: -250px;
+    left: 700px;
+}
+
+.container-au-text {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    max-width: 1180px;
+    background: #FFFFFF;
+    padding: 50px;
+    margin-bottom: 300px;
+}
+
+.text-au {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+}
+
+.text-au-b {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+}
+
+/* Страница Прайс */
+
+.container-price {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 260px;
+}
+
+.container-block-pr {
+    width: 339px;
+    height: 399px;
+    background: linear-gradient(180deg, rgba(188, 188, 188, 0.16) 0%, rgba(147, 147, 147, 0.0592) 100%);
+    opacity: 0.8;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+    z-index: 2;
+}
+
+.container-item-pr {
+    display: flex;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-pr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 20px;
+    z-index: 10;
+}
+
+.discount-pr {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #3D9B9C;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.month-pr {
+    opacity: 0;
+}
+
+.discount-pr-pro {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #396BEB;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.tariff {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.interval {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.container-free-elem-pr {
+    position: relative;
+}
+
+.heading-pr {
+    position: absolute;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    top: -80px;
+    left: 25px;
+}
+
+
+.tariff {
+    position: absolute;
+    top: -80px;
+    right: 35px;
+    z-index: 10;
+}
+
+.interval {
+    position: absolute;
+    top: -40px;
+    right: 50px;
+    z-index: 10;
+}
+
+
+.image-month {
+    position: absolute;
+    top: 315px;
+    left: -70px;
+    z-index: -10;
+}
+
+.container-free {
+    position: relative;
+}
+
+.image-year {
+    position: absolute;
+    bottom: -25px;
+    left: 650px;
+    z-index: -10;
+}
+
+.image-pro {
+    position: absolute;
+    bottom: 0px;
+    right: -1200px;
+    z-index: -10;
+}
+
+.label {
+    position: absolute;
+    top: -100px;
+    right: 10px;
+}
+
+.corner {
+    position: absolute;
+    top: -100px;
+    right: 144px;
+}
+
+.last-pr {
+    margin-top: 40px;
+}
+
+/* Страница список игр */
+
+.container-gl {
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 250px;
+}
+
+.game {
+    width: 284px;
+    height: 299px;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.hover-effect-btn {
+    position: relative;
+
+  }
+
+.overlay-gl {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.1);
+transition: 0.5s ease;
+}
+
+.hover-effect-btn:hover .overlay-gl {
+display: block;
+background: rgba(0, 0, 0, 0.7);
+}
+
+.title-gl {
+position: absolute;
+width: 100%;
+left: 0;
+top: 75%;
+z-index: 1;
+transition: top .5s ease;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+font-family: 'Ubuntu', sans-serif;
+color: #38AF74;
+}
+
+.hover-effect-btn:hover .title-gl {
+top: 10%; /* Отступ сверху при наведении */
+}
+
+.hover-effect-btn:hover .image-gl {
+margin: 40px; /* Отступ сверху при наведении */
+}
+
+.button-gl {
+position: absolute;
+width: 100%;
+left:0;
+top: 75%;
+text-align: center;
+opacity: 0;
+transition: opacity .35s ease;
+}
+
+.button-gl a {
+text-align: center;
+padding: 10px 50px 10px 50px;
+color: white;
+z-index: 1;
+background: #38AF74;
+border-radius: 100px;
+text-decoration: none; 
+font-family: 'Ubuntu', sans-serif;
+} 
+
+.title-gl-par {
+position: absolute;
+width: 100%;
+left:0;
+top: 30%;
+text-align: center;
+opacity: 0;
+transition: opacity .35s ease;
+}
+
+.par-gl {
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+font-family: 'Ubuntu', sans-serif;
+z-index: 1;
+}
+
+.hover-effect-btn:hover .button-gl {
+opacity: 1;
+}
+
+.hover-effect-btn:hover .title-gl-par {
+opacity: 1;
+}
+
+/* .container-image-gl {
+    position: relative;
+}
+
+.circles-gl {
+    position: absolute;
+    left: 0px;
+    top: -180px;
+    z-index: -3;
+}
+
+.dots-gl {
+    position: absolute;
+    bottom: -300px;
+    left: 1070px;
+    z-index: -10;
+} */
+
+       
+  
+  
